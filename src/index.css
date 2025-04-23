@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  height: 60px;
+  background-color: #0d6efd;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f3d308;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #e8f8f5;
+  overflow-y: auto;
+}
+.user-registration{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.detailed-scores{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.registration-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 10px 16px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #084cd1;
+}
+
+.detailed-scores .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailed-scores .p-4 {
+  padding: 16px;
+}
+
+.detailed-scores .hover\:bg-gray-50:hover {
+  background-color: #f9fafb;
+}
+
+.detailed-scores .rounded-lg {
+  border-radius: 8px;
+}
+
+.detailed-scores .font-medium {
+  font-weight: 500;
+}
+
+.detailed-scores .font-semibold {
+  font-weight: 600;
+}
+
+.topstudent{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.topstudent a {
+  font-size: 1.125rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.top-students-content{
+  width: 80%;
+  margin: 0 auto;             /* Căn giữa theo chiều ngang */
+  display: flex;
+  flex-direction: column;     /* Cho phép sắp xếp nội dung theo chiều dọc */
+  align-items: center; 
+}
+.top-students-content h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;       /* Khoảng cách dưới tiêu đề */
+}
+
+.student-table{
+  width: 100%;
+  border-collapse: collapse; /* Gộp các đường viền của bảng */
+  margin-bottom: 2rem;      /* Khoảng cách dưới bảng */ 
+  border-radius: 8px;      /* Bo tròn các góc của bảng */
+
+}
+
+th{
+  
+  text-align: left;  
+}
