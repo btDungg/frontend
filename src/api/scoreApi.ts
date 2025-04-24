@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ScoreDto, ScoreReportDto, TopStudentADto,ErrorDto } from '../types';
 
-const API = 'http://localhost:8080/api/v1/scores';
+const API = 'https://backend-production-7b2b.up.railway.app/api/v1/scores';
 
 export const fetchScoreByRegNumber = async (regNumber: string): Promise<ScoreDto | ErrorDto> => {
     try {
