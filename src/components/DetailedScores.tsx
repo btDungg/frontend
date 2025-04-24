@@ -26,7 +26,7 @@ const DetailedScores = ({ score }: DetailedScoresProps) => {
           <div>{score.registrationNumber}</div>
         </div>
         <div className="flex justify-between p-2">
-          <div className="font-medium">Ngoại ngữ mã</div>
+          <div className="font-medium">Mã ngoại ngữ</div>
           <div>{score.foreignLanguageCode}</div>
         </div>
 
