@@ -1,0 +1,3 @@
+- Vào folder fronted. và mở terminal
+- Chạy lệnh 'yarn add vite --dev'
+- sau khi tải xong. chạy lệnh 'yarn dev' để khởi chạy chương trình
